@@ -1,6 +1,13 @@
-- name: Flutter action
-  uses: subosito/flutter-action@v2.7.1
-  jobs:
+name: Flutter action
+# This workflow is triggered on pushes to the repository.
+
+on:
+  push:
+    branches:
+    - main
+
+uses: subosito/flutter-action@v2.7.1
+jobs:
   build:
     runs-on: windows-latest
     steps:
