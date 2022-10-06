@@ -98,3 +98,6 @@ jobs:
         with:
           files: build/macos/Build/Products/Release/MacRecoveryX-${{github.ref_name}}-macos.zip
 
+# https://medium.com/mobile-development-group/github-actions-for-flutter-cf02923d7b5d
+
+# https://angeloavv.medium.com/how-to-distribute-flutter-desktop-app-binaries-using-github-actions-f8d0f9be4d6b
